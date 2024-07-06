@@ -1,0 +1,58 @@
+<config>
+    <version>
+        3.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="6c02e078fa7e61478066c8abfe040200">waveform.asdb</database>
+    </databases>
+    <gridshown/>
+    <signallists>
+        <signallist id="0">
+        <signal>/tb_FPU/F1</signal>
+        <signal>/tb_FPU/F2</signal>
+        <signal>/tb_FPU/F3</signal>
+        </signallist>
+        <signallist id="1">
+        <signal>/tb_FPU/F1</signal>
+        <signal>/tb_FPU/F2</signal>
+        <signal>/tb_FPU/F3</signal>
+        </signallist>
+    </signallists>
+    <timebases>
+        <timebase id="0">
+            <time start_time="0" end_time="7907" />
+        </timebase>
+    </timebases>
+    <prefbases>
+        <prefbase id="0" >
+        </prefbase>
+        <prefbase id="1" >
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+            <bookmark value="4985"/>
+        </bookmarks>
+        <bookmarks id="1">
+            <bookmark value="4985"/>
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="4" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+        <view signallist="1" propertybase="1" prefbase="1" type="1" bookmarks="1" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>
